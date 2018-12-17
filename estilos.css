@@ -1,0 +1,102 @@
+div .caja {
+    padding-left: 15%;
+    padding-right: 15%;
+    border: 40px;
+    
+}
+
+.letras {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 15%;
+    font-size: 175%; 
+    font-family: Arial, Helvetica, sans-serif
+
+}
+.letrastabla {
+    
+    font-size: 125%; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 43%;
+    padding-top: 10%
+
+}
+ 
+ .boxe{padding-left: 4%;
+    padding-right: 15%;
+    font-size: 195%; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5% 5%;
+    margin: top right bottom left
+    
+}
+
+.entradas{
+    padding-right: 15%;
+    padding-left: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    margin-right: 70%;
+    border-radius: 5px;
+    font-size: 150%;
+    background-color: #eee
+}
+
+.botones{
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+    margin-left: 50%;
+    border-radius: 1%;
+    color: lightgreen;
+
+}
+
+
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .boton_personalizado:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+  .espacios{
+    padding-left: 10%;
+    padding-right: 10%;
+
+  }
+
+
+
+  .renglones{  
+    padding-left: 2.5%;
+    padding-right: 10%;
+    background-position-x: 20%;
+    /*background-color: darkslategray;*/
+    box-sizing: content-box;
+    
+    width: 1%;
+    height: 1%;
+        
+    border: 3px solid black;
+    
+}
+
+   .parcolor{
+        background-color: gray ;  
+
+   }
+   .imparcolor{
+        background-color: white ;
+
+   }

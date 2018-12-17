@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <link rel="stylesheet" href="file:///c:\Users\GIGLIO\Desktop\programacion\contenedor.css" type="text/css" media="all"> 
+        <link rel="stylesheet" href="file:///media/catu-18/6C29-9A08/programacion/contenedor.css" type="text/css" media="all"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="caja" >
+            <p class="letras">Ingrese usuarios</p>
+            <form>
+            <input id="nombre" type="text" placeholder="Ingresa nombre" class="entradas">
+            <input id="edad" type="text" placeholder="Ingresa edad" class="entradas">
+            <button id="button" class="boton_personalizado":hover onclick="capturar();" type="reset">Agregar</button>
+            </form>
+        </div>
+        <div class="">
+            <table class="boxe" id="tabla">
+                <thead class="">
+                    <tr class="">
+                        <th class="">&nbsp;Nombre&nbsp;</th>
+                        <th class="">Edad</th>
+                    </tr>
+                </thead>
+                
+            </table>
+        </div> 
+        
+        <script>
+            function capturar(){
+                //console.log(capturar)
+                function Persona(nombre,edad){
+                    this.nombre=nombre;
+                    this.edad=edad;
+                }
+                var nombreCapturar = document.getElementById("nombre").value;
+                //console.log(nombreCapturar);
+                var edadCapturar = document.getElementById("edad").value;
+                //console.log(edadCapturar); 
+
+                nuevoSujeto = new Persona(nombreCapturar,edadCapturar);
+                console.log(nuevoSujeto);
+                agregar();
+            }
+            var baseDatos= [];
+            function agregar(){
+                baseDatos.push(nuevoSujeto);
+                console.log(baseDatos);
+                document.getElementById("tabla").innerHTML += '<tr class=' + (baseDatos.length % 2 ? "parcolor":"imparcolor") + '><td class="renglones">'+nuevoSujeto.nombre+'</td><td class="renglones">'+nuevoSujeto.edad+'</td></tr>';
+
+            };
+
+            var esta_nivel_10 = nivel_actual === 10 ? true : false;
+            baseDatos.length % 2 ? par : impar;
+        </script>    
+
+
+    </body>
+
+
+
+
+
+    </head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
