@@ -1,0 +1,79 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    }
+
+  .fondo { 
+
+    background-image: url("mosaico.png");
+    height: 100%; 
+    width: 100%;
+  
+    /* Center and scale the image nicely */
+    background-repeat: repeat;
+    
+  }
+
+
+h1 {
+    font-family: 'Acme', sans-serif;
+    color: rgb(23, 55, 107);
+    font-size: 3pc;
+    margin-left: 15pc;
+    margin-block-start: 0.0em;
+    margin-block-end: 0.0em;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-shadow: 0 0 1pc white;
+    display: inline-block;
+    
+
+}
+
+p {
+    font-family: 'Acme', sans-serif;
+    color: rgb(23, 55, 107);
+    font-size: 1.5pc;
+    margin-left: 15pc;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-end: 0px;
+    text-shadow: 0 0 1pc white;
+}
+
+
+ .contenedor {
+    
+    font-family: 'Acme', sans-serif;
+
+     padding-left: 0.6pc;
+     padding-top: 0.6pc;
+     padding-bottom: 0.6pc;
+    background-color:rgb(77, 127, 207);
+    border-radius: 0.7pc;
+    margin-left: 15pc;
+    margin-right: 25pc;
+    color:white;
+     
+ }
+
+ .cssboton {
+    font-family: 'Acme', sans-serif;
+    background-color:rgb(23, 55, 107);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 2px;   
+    font-size: 0.7pc;
+  }
+  
+.tamaño{
+  padding-top: 0.5pc;
+  font-size: 1.5pc;
+}
+
+  
